@@ -1,0 +1,31 @@
+:root{
+    --cor-fundo-pagina:
+    --cor-fundo-cartao:
+    --cor-texto princial
+    --cor-texto-suave;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Roberto', 'Arial';
+    color: var(--cor-text0-princioal);
+    background: var(--cor-fundo-pagina);
+}
+
+.container-pagina{
+    width: min-content(1100px, 90%);
+    margin: 0 auto;
+}
+
+.cabecalho-principal{
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(180deg,pink 0% black 60%);
+}
